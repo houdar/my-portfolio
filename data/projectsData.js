@@ -60,10 +60,81 @@ export const projectsData = [
 		
 		},
 	},
-	//do not fucking touch this part its done now 
+
+
+	//*********************************************************************** */
 
 	{
 		id: 2,
+		title: 'movie app',
+		category: 'Web Application',
+		img: '/images/movie1.png',
+		ProjectHeader: {
+			title: 'movie app',
+			publishDate: 'Jan 17, 2024',
+			tags: 'Frontend',
+		},
+		ProjectImages: [
+			{
+				id: uuidv4(),
+				title: 'movie app',
+				img: '/images/movie2.png',
+			},
+			{
+				id: uuidv4(),
+				title: 'movie app',
+				img: '/images/movie3.png',
+			},
+			{
+				id: uuidv4(),
+				title: 'movie app',
+				img: '/images/movie4.png',
+			},
+			
+			
+			
+		],
+		ProjectInfo: {	
+			ObjectivesHeading: 'Objective',
+			ObjectivesDetails:
+				'a web application that let user search and choose movies , suggest the best acording to his choices , recomand movies ...',
+			 Technologies: [
+				{
+					title: 'Tools & Technologies',
+					techs: [
+						'HTML',
+						'CSS',
+						'Javascript ',
+						'typescript'
+					],
+				},
+			], 
+			ProjectDetailsHeading: 'description',
+			ProjectDetails: [
+				{
+					id: uuidv4(),
+					details:
+						" a dynamic web application designed for movie enthusiasts seeking a personalized cinematic experience. With our user-friendly interface, you can effortlessly search, discover, and choose movies based on your preferences.",
+				},
+				{
+					id: uuidv4(),
+					details:
+						"Dive into a vast database, explore genres, and receive tailored recommendations that align with your unique tastes. Whether you're in the mood for action, drama, or comedy, my app empowers you to curate your movie list with ease. ",
+				},
+				{
+					id: uuidv4(),
+					details:
+						"Unlock a world of entertainment as our intelligent algorithm suggests the best films, ensuring every movie night is a memorable one. Start your cinematic journey with [Your App Name] and redefine the way you explore and enjoy movies",
+				},
+				
+			],
+		
+		},
+	},
+	//=====================================================
+
+	{
+		id: 3,
 		title: 'task manager App',
 		category: 'frontend',
 		img: '/images/ui-project-12.jpg',
